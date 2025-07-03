@@ -9,12 +9,6 @@
 					"referenceName": "storage_event",
 					"type": "PipelineReference"
 				}
-			},
-			{
-				"pipelineReference": {
-					"referenceName": "CopyPipeline_csv",
-					"type": "PipelineReference"
-				}
 			}
 		],
 		"type": "BlobEventsTrigger",
