@@ -49,14 +49,8 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DestinationDataset_1v6",
-						"type": "DatasetReference",
-						"parameters": {
-							"file": {
-								"value": "@123pipeline().parameters.storage",
-								"type": "Expression"
-							}
-						}
+						"referenceName": "DelimitedText8",
+						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
