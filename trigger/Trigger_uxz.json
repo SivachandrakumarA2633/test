@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_uxz",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "schedual_tes1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2025-06-25T13:40:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

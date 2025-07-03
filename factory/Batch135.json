@@ -1,0 +1,9 @@
+{
+	"name": "Batch135",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "92ac6820-731b-4bdb-8b1c-26728b45243c",
+		"tenantId": "43c67915-2c8d-421e-8f78-0306e3ec0d71"
+	}
+}
