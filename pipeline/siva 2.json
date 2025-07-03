@@ -1,0 +1,20 @@
+{
+	"name": "siva 2",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait",
+				"description": "10sec..",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2025-06-24T10:43:54Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
