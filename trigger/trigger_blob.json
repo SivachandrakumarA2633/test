@@ -1,12 +1,12 @@
 {
-	"name": "trigger1",
+	"name": "trigger_blob",
 	"properties": {
 		"annotations": [],
 		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
-					"referenceName": "Storage_event",
+					"referenceName": "storage_event",
 					"type": "PipelineReference"
 				}
 			}
