@@ -32,8 +32,7 @@
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
-							"type": "DelimitedTextReadSettings",
-							"skipLineCount": 0
+							"type": "DelimitedTextReadSettings"
 						}
 					},
 					"sink": {
@@ -290,13 +289,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "SourceDataset_1v6",
+						"referenceName": "DelimitedText9",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationDataset_1v6",
+						"referenceName": "DelimitedText10",
 						"type": "DatasetReference"
 					}
 				]
