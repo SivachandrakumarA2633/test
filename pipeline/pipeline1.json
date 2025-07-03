@@ -61,6 +61,14 @@
 				]
 			}
 		],
+		"parameters": {
+			"folterbath": {
+				"type": "string"
+			},
+			"filename": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
