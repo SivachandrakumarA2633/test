@@ -19,14 +19,6 @@
 			"type": "string",
 			"defaultValue": "https://batch136.dfs.core.windows.net/"
 		},
-		"Stotage_trigger_properties_pipeline1_parameters_folterbath": {
-			"type": "string",
-			"defaultValue": "'Senthil'"
-		},
-		"Stotage_trigger_properties_pipeline1_parameters_filename": {
-			"type": "string",
-			"defaultValue": "'muthu'"
-		},
 		"Stotage_trigger_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/c893278e-10f5-4c56-bc67-2a7877d91410/resourceGroups/Batch135/providers/Microsoft.Storage/storageAccounts/batch136"
@@ -92,12 +84,6 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
-					},
-					"Stotage_trigger_properties_pipeline1_parameters_folterbath": {
-						"value": "[parameters('Stotage_trigger_properties_pipeline1_parameters_folterbath')]"
-					},
-					"Stotage_trigger_properties_pipeline1_parameters_filename": {
-						"value": "[parameters('Stotage_trigger_properties_pipeline1_parameters_filename')]"
 					},
 					"Stotage_trigger_properties_typeProperties_scope": {
 						"value": "[parameters('Stotage_trigger_properties_typeProperties_scope')]"
