@@ -31,6 +31,10 @@
 			"type": "string",
 			"defaultValue": "/subscriptions/c893278e-10f5-4c56-bc67-2a7877d91410/resourceGroups/Batch135/providers/Microsoft.Storage/storageAccounts/batch136"
 		},
+		"Storage_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/c893278e-10f5-4c56-bc67-2a7877d91410/resourceGroups/Batch135/providers/Microsoft.Storage/storageAccounts/batch136"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -93,6 +97,9 @@
 					},
 					"s_e_properties_typeProperties_scope": {
 						"value": "[parameters('s_e_properties_typeProperties_scope')]"
+					},
+					"Storage_properties_typeProperties_scope": {
+						"value": "[parameters('Storage_properties_typeProperties_scope')]"
 					}
 				}
 			},

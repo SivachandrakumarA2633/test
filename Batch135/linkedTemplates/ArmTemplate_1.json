@@ -14,6 +14,10 @@
 		"s_e_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/c893278e-10f5-4c56-bc67-2a7877d91410/resourceGroups/Batch135/providers/Microsoft.Storage/storageAccounts/batch136"
+		},
+		"Storage_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/c893278e-10f5-4c56-bc67-2a7877d91410/resourceGroups/Batch135/providers/Microsoft.Storage/storageAccounts/batch136"
 		}
 	},
 	"variables": {
@@ -733,6 +737,38 @@
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/pipelines/s_e')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/Storage')]",
+			"type": "Microsoft.DataFactory/factories/triggers",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"runtimeState": "Started",
+				"pipelines": [
+					{
+						"pipelineReference": {
+							"referenceName": "storage_event",
+							"type": "PipelineReference"
+						},
+						"parameters": {}
+					}
+				],
+				"type": "BlobEventsTrigger",
+				"typeProperties": {
+					"blobPathBeginsWith": "/input/blobs/",
+					"blobPathEndsWith": ".csv",
+					"ignoreEmptyBlobs": true,
+					"scope": "[parameters('Storage_properties_typeProperties_scope')]",
+					"events": [
+						"Microsoft.Storage.BlobCreated",
+						"Microsoft.Storage.BlobDeleted"
+					]
+				}
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/pipelines/storage_event')]"
 			]
 		}
 	]

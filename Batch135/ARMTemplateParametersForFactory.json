@@ -22,6 +22,9 @@
 		},
 		"trigger_blob_properties_typeProperties_scope": {
 			"value": "/subscriptions/c893278e-10f5-4c56-bc67-2a7877d91410/resourceGroups/Batch135/providers/Microsoft.Storage/storageAccounts/batch136"
+		},
+		"Storage_properties_typeProperties_scope": {
+			"value": "/subscriptions/c893278e-10f5-4c56-bc67-2a7877d91410/resourceGroups/Batch135/providers/Microsoft.Storage/storageAccounts/batch136"
 		}
 	}
 }
