@@ -45,7 +45,7 @@
 							{
 								"source": {
 									"name": "YearsExperience",
-									"type": "String",
+									"type": "Double",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -57,7 +57,7 @@
 							{
 								"source": {
 									"name": "Salary",
-									"type": "String",
+									"type": "Int64",
 									"physicalType": "String"
 								},
 								"sink": {
