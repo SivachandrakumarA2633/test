@@ -20,6 +20,7 @@
 						"storeSettings": {
 							"type": "AzureBlobFSReadSettings",
 							"recursive": true,
+							"wildcardFileName": "*",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
@@ -75,23 +76,18 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DelimitedText8",
+						"referenceName": "DelimitedText11",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DelimitedText7",
+						"referenceName": "DelimitedText12",
 						"type": "DatasetReference"
 					}
 				]
 			}
 		],
-		"parameters": {
-			"storage": {
-				"type": "Int"
-			}
-		},
 		"folder": {
 			"name": "Storage event"
 		},

@@ -6,12 +6,8 @@
 		"pipelines": [
 			{
 				"pipelineReference": {
-					"referenceName": "pipeline1",
+					"referenceName": "Storage_events",
 					"type": "PipelineReference"
-				},
-				"parameters": {
-					"folterbath": "'Senthil'",
-					"filename": "'muthu'"
 				}
 			}
 		],
