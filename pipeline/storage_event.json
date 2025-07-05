@@ -41,32 +41,6 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
-						"mappings": [
-							{
-								"source": {
-									"name": "YearsExperience",
-									"type": "Double",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "YearsExperience",
-									"type": "String",
-									"physicalType": "String"
-								}
-							},
-							{
-								"source": {
-									"name": "Salary",
-									"type": "Int64",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "Salary",
-									"type": "String",
-									"physicalType": "String"
-								}
-							}
-						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
