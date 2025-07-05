@@ -66,6 +66,9 @@
 					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
+					},
+					"trigger_blob_properties_typeProperties_scope": {
+						"value": "[parameters('trigger_blob_properties_typeProperties_scope')]"
 					}
 				}
 			},
@@ -90,9 +93,6 @@
 					},
 					"s_e_properties_typeProperties_scope": {
 						"value": "[parameters('s_e_properties_typeProperties_scope')]"
-					},
-					"trigger_blob_properties_typeProperties_scope": {
-						"value": "[parameters('trigger_blob_properties_typeProperties_scope')]"
 					}
 				}
 			},
