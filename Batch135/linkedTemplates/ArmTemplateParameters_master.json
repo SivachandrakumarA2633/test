@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Batch135"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://batch136.dfs.core.windows.net/"
+		},
+		"Storage_properties_typeProperties_scope": {
+			"value": "/subscriptions/c893278e-10f5-4c56-bc67-2a7877d91410/resourceGroups/Batch135/providers/Microsoft.Storage/storageAccounts/batch136"
+		},
+		"Stotage_trigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/c893278e-10f5-4c56-bc67-2a7877d91410/resourceGroups/Batch135/providers/Microsoft.Storage/storageAccounts/batch136"
+		},
+		"s_e_properties_typeProperties_scope": {
+			"value": "/subscriptions/c893278e-10f5-4c56-bc67-2a7877d91410/resourceGroups/Batch135/providers/Microsoft.Storage/storageAccounts/batch136"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
