@@ -25,18 +25,18 @@
 	},
 	"resources": [
 		{
-			"name": "[concat(parameters('factoryName'), '/gittest')]",
+			"name": "[concat(parameters('factoryName'), '/test')]",
 			"type": "Microsoft.DataFactory/factories/pipelines",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"activities": [
 					{
-						"name": "test",
+						"name": "Wait1",
 						"type": "Wait",
 						"dependsOn": [],
 						"userProperties": [],
 						"typeProperties": {
-							"waitTimeInSeconds": 30
+							"waitTimeInSeconds": 1
 						}
 					}
 				],
