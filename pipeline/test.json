@@ -72,56 +72,7 @@
 					"expression": {
 						"value": "@equals(variables('LockStatus'),'unloked')",
 						"type": "Expression"
-					},
-					"ifTrueActivities": [
-						{
-							"name": "Set variable2",
-							"type": "SetVariable",
-							"dependsOn": [],
-							"policy": {
-								"secureOutput": false,
-								"secureInput": false
-							},
-							"userProperties": [],
-							"typeProperties": {
-								"variableName": "LockStatus",
-								"value": ""
-							}
-						},
-						{
-							"name": "Wait1",
-							"type": "Wait",
-							"dependsOn": [
-								{
-									"activity": "Set variable2",
-									"dependencyConditions": [
-										"Succeeded"
-									]
-								}
-							],
-							"userProperties": [],
-							"typeProperties": {
-								"waitTimeInSeconds": 1
-							}
-						},
-						{
-							"name": "Set variable3",
-							"type": "SetVariable",
-							"dependsOn": [
-								{
-									"activity": "Wait1",
-									"dependencyConditions": [
-										"Succeeded"
-									]
-								}
-							],
-							"policy": {
-								"secureOutput": false,
-								"secureInput": false
-							},
-							"userProperties": []
-						}
-					]
+					}
 				}
 			}
 		],
