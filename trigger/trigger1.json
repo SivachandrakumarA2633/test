@@ -15,7 +15,7 @@
 		"typeProperties": {
 			"subjectEndsWith": "",
 			"subjectBeginsWith": "",
-			"scope": "",
+			"scope": "/subscriptions/7fc2cabc-4ac2-4cf1-86bd-f19d265f4577/resourceGroups/rg-datafactory-demo/providers/Microsoft.EventGrid/topics/event-topic-sales",
 			"events": [
 				" "
 			]
