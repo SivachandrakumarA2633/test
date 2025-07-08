@@ -15,7 +15,7 @@
 		"typeProperties": {
 			"subjectEndsWith": "",
 			"subjectBeginsWith": "",
-			"scope": "/subscriptions/7fc2cabc-4ac2-4cf1-86bd-f19d265f4577/resourceGroups/rg-datafactory-demo/providers/Microsoft.EventGrid/topics/event-topic-sales",
+			"scope": "Azure subscription 1 (c893278e-10f5-4c56-bc67-2a7877d91410)",
 			"events": [
 				" "
 			]
