@@ -1,0 +1,17 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "CustomEventsTrigger",
+		"typeProperties": {
+			"subjectEndsWith": "kumar",
+			"subjectBeginsWith": "siva",
+			"scope": "",
+			"events": [
+				"sting"
+			]
+		}
+	}
+}
