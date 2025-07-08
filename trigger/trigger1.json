@@ -3,12 +3,19 @@
 	"properties": {
 		"annotations": [],
 		"runtimeState": "Started",
-		"pipelines": [],
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "test",
+					"type": "PipelineReference"
+				}
+			}
+		],
 		"type": "CustomEventsTrigger",
 		"typeProperties": {
 			"subjectEndsWith": "",
 			"subjectBeginsWith": "",
-			"scope": "",
+			"scope": "Batch 135",
 			"events": [
 				"sting"
 			]
