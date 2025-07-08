@@ -6,8 +6,8 @@
 		"pipelines": [],
 		"type": "CustomEventsTrigger",
 		"typeProperties": {
-			"subjectEndsWith": "kumar",
-			"subjectBeginsWith": "siva",
+			"subjectEndsWith": "",
+			"subjectBeginsWith": "",
 			"scope": "",
 			"events": [
 				"sting"
