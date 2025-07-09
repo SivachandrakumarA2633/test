@@ -1,0 +1,26 @@
+{
+	"name": "Json5",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "status.json",
+				"fileSystem": "siva"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"lockstatus": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
